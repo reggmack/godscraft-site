@@ -1,0 +1,53 @@
+nav .brand-logo {
+    font-size: 3.25rem;
+}
+
+a.brand-logo img {
+    margin: 14px 7px 0 0;
+    max-height: 85px;
+    max-width: 40%;
+}
+
+nav {
+    background-color: grey !important;
+}
+
+nav .nav-background {
+    opacity: .9;
+}
+
+.text-behave {
+    font-size: 1em !important;
+}
+
+nav .nav-background .pattern {
+    -webkit-transform: none;
+    transform: none;
+    background-repeat: none;
+    background-size: cover;
+}
+
+/* .nav-background .pattern {
+    -webkit-filter: none !important;
+    filter: none !important;
+    transition: opacity .7s;
+} */
+
+nav .nav-background img, nav .nav-background .pattern {
+    -webkit-filter: none !important;
+    filter: none !important;
+    transition: opacity .7s;
+}
+
+.carousel .indicators {
+    bottom: 10px;
+}
+
+
+
+
+@media only screen and (min-width: 601px) {
+    nav.nav-extended .nav-wrapper.sub-page {
+        min-height: 300px;
+    }
+}
