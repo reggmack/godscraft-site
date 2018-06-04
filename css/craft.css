@@ -17,7 +17,9 @@ nav .nav-background {
 }
 
 .text-behave {
-    font-size: 1em !important;
+    font-size: 2.25rem;
+    word-wrap: break-word !important;
+    font-weight: normal;
 }
 
 nav .nav-background .pattern {
@@ -43,11 +45,87 @@ nav .nav-background img, nav .nav-background .pattern {
     bottom: 10px;
 }
 
+.footer-text {
+    margin:0;
+}
 
 
+
+@media only screen and (max-width: 1300px) {
+    .text-behave {
+        font-size: 2rem;
+    }
+
+    #portfolio {
+        margin-top:30px;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .text-behave {
+        font-size: 1.65rem;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .text-behave {
+        position: relative;
+        top: 20px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    #portfolio {
+        margin-top:50px;
+    }
+}
+
+
+@media only screen and (max-width: 492px) {
+    .text-behave {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .text-behave {
+        font-size: 1.35rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .text-behave {
+        font-size: 1.25rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .text-behave {
+        font-size: 1.15rem;
+    }
+
+    #portfolio {
+        margin-top:70px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .text-behave {
+        font-size: 1rem;
+    }
+}
 
 @media only screen and (min-width: 601px) {
     nav.nav-extended .nav-wrapper.sub-page {
         min-height: 300px;
     }
 }
+
+
+
+
+
+
+
+
+
